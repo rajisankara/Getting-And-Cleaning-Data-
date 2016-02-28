@@ -14,7 +14,7 @@ Assigning  descriptive activity labels to activities in the mergedData
 ### Step 4
 Computing averages by subjectid and activityname and sort them by subjectid and activityname using plyr package  
 ### Step 5  
-Giving meaningful column names to the columns in aggregated_data and write the aggregated data into tidydata file  
+Giving meaningful column names to the columns in aggregated_data and write the aggregated data into tidydata file    
 
 
 
