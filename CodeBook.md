@@ -57,30 +57,30 @@ Resulting data is stored in the variable aggregated_data
 6.tidydata has 180 Obs and 68 Variables
 
 ### Structure of tidydata
-  subjectid                                     : chr  .
-  activityName                                  : chr  
-  timeBodyAccelerometer-MEAN()-X                : num  
-  timeBodyAccelerometer-MEAN()-Y                : num 
-  timeBodyAccelerometer-MEAN()-Z                : num 
-  timeBodyAccelerometer-SD()-X                  : num 
-  timeBodyAccelerometer-SD()-Y                  : num  
-  timeBodyAccelerometer-SD()-Z                  : num 
-  timeGravityAccelerometer-MEAN()-X             : num 
-  timeGravityAccelerometer-MEAN()-Y             : num  
-  timeGravityAccelerometer-MEAN()-Z             : num  
-  timeGravityAccelerometer-SD()-X               : num  
-  timeGravityAccelerometer-SD()-Y               : num  
-  timeGravityAccelerometer-SD()-Z               : num 
-  timeBodyAccelerometerJerk-MEAN()-X            : num 
-  timeBodyAccelerometerJerk-MEAN()-Y            : num 
-  timeBodyAccelerometerJerk-MEAN()-Z            : num  
+  subjectid                                     : chr    .
+  activityName                                  : chr    
+  timeBodyAccelerometer-MEAN()-X                : num    
+  timeBodyAccelerometer-MEAN()-Y                : num   
+  timeBodyAccelerometer-MEAN()-Z                : num   
+  timeBodyAccelerometer-SD()-X                  : num   
+  timeBodyAccelerometer-SD()-Y                  : num    
+  timeBodyAccelerometer-SD()-Z                  : num   
+  timeGravityAccelerometer-MEAN()-X             : num  
+  timeGravityAccelerometer-MEAN()-Y             : num    
+  timeGravityAccelerometer-MEAN()-Z             : num     
+  timeGravityAccelerometer-SD()-X               : num    
+  timeGravityAccelerometer-SD()-Y               : num    
+  timeGravityAccelerometer-SD()-Z               : num   
+  timeBodyAccelerometerJerk-MEAN()-X            : num   
+  timeBodyAccelerometerJerk-MEAN()-Y            : num   
+  timeBodyAccelerometerJerk-MEAN()-Z            : num    
   timeBodyAccelerometerJerk-SD()-X              : num  
-  timeBodyAccelerometerJerk-SD()-Y              : num 
-  timeBodyAccelerometerJerk-SD()-Z              : num 
+  timeBodyAccelerometerJerk-SD()-Y              : num   
+  timeBodyAccelerometerJerk-SD()-Z              : num   
   timeBodyGyroscope-MEAN()-X                    : num  
-  timeBodyGyroscope-MEAN()-Y                    : num 
-  timeBodyGyroscope-MEAN()-Z                    : num 
-  timeBodyGyroscope-SD()-X                      : num  
+  timeBodyGyroscope-MEAN()-Y                    : num   
+  timeBodyGyroscope-MEAN()-Z                    : num         
+  timeBodyGyroscope-SD()-X                      : num    
   timeBodyGyroscope-SD()-Y                      : num 
   timeBodyGyroscope-SD()-Z                      : num 
   timeBodyGyroscopeJerk-MEAN()-X                : num  
@@ -104,7 +104,7 @@ Resulting data is stored in the variable aggregated_data
   frequencyBodyAccelerometer-MEAN()-Z           : num  
   frequencyBodyAccelerometer-SD()-X             : num  
   frequencyBodyAccelerometer-SD()-Y             : num 
-  frequencyBodyAccelerometer-SD()-Z             : num
+  frequencyBodyAccelerometer-SD()-Z             : num  
   frequencyBodyAccelerometerJerk-MEAN()-X       : num  
   frequencyBodyAccelerometerJerk-MEAN()-Y       : num 
   frequencyBodyAccelerometerJerk-MEAN()-Z       : num 
@@ -112,7 +112,7 @@ Resulting data is stored in the variable aggregated_data
   frequencyBodyAccelerometerJerk-SD()-Y         : num  
   frequencyBodyAccelerometerJerk-SD()-Z         : num 
   frequencyBodyGyroscope-MEAN()-X               : num 
-  frequencyBodyGyroscope-MEAN()-Y               : num
+  frequencyBodyGyroscope-MEAN()-Y               : num  
   frequencyBodyGyroscope-MEAN()-Z               : num  
   frequencyBodyGyroscope-SD()-X                 : num 
   frequencyBodyGyroscope-SD()-Y                 : num  
