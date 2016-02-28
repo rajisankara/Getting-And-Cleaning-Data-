@@ -7,7 +7,7 @@ Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTA
 
 The sensor signals (accelerometer and gyroscope) were pre-processed by applying noise filters and then sampled in fixed-width sliding windows of 2.56 sec and 50% overlap (128 readings/window). The sensor acceleration signal, which has gravitational and body motion components, was separated using a Butterworth low-pass filter into body acceleration and gravity. The gravitational force is assumed to have only low frequency components, therefore a filter with 0.3 Hz cutoff frequency was used. From each window, a vector of features was obtained by calculating variables from the time and frequency domain.
 
-For each record it is provided:  
+For each record the following info are recorded:  
 - Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration.  
 - Triaxial Angular velocity from the gyroscope. 
 - A 561-feature vector with time and frequency domain variables. 
@@ -41,6 +41,22 @@ The following files are available for the train and test data. Their description
 - 'train/Inertial Signals/body_acc_x_train.txt': The body acceleration signal obtained by subtracting the gravity from the total acceleration. 
 
 - 'train/Inertial Signals/body_gyro_x_train.txt': The angular velocity vector measured by the gyroscope for each window sample. The units are radians/second. 
+
+### Steps followed to create the tidy data set
+1.Data from test, train and subject are read and merged into one single dataset called mergedData  
+
+2.Meaningful activity name is given by merging the data read from activity labels. Extracted only the measurements on the mean and standard deviation for each measurement     
+
+3.Averages were computed by subjectid and activityname and sortes by subjectid and activityname using plyr package.  
+Resulting data is stored in the variable aggregated_data
+
+4.ColumnNames in the aggregated dataset is cleaned up by giving meaningful names  
+
+5.The cleaned up data is written into file tidydata.txt 
+
+6.tidydata has 180 Obs and 68 Variables
+
+### Structure of tidydata
 
  
 
