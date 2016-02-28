@@ -57,7 +57,73 @@ Resulting data is stored in the variable aggregated_data
 6.tidydata has 180 Obs and 68 Variables
 
 ### Structure of tidydata
+  subjectid                                     : chr  .
+  activityName                                  : chr  
+  timeBodyAccelerometer-MEAN()-X                : num  
+  timeBodyAccelerometer-MEAN()-Y                : num 
+  timeBodyAccelerometer-MEAN()-Z                : num 
+  timeBodyAccelerometer-SD()-X                  : num 
+  timeBodyAccelerometer-SD()-Y                  : num  
+  timeBodyAccelerometer-SD()-Z                  : num 
+  timeGravityAccelerometer-MEAN()-X             : num 
+  timeGravityAccelerometer-MEAN()-Y             : num  
+  timeGravityAccelerometer-MEAN()-Z             : num  
+  timeGravityAccelerometer-SD()-X               : num  
+  timeGravityAccelerometer-SD()-Y               : num  
+  timeGravityAccelerometer-SD()-Z               : num 
+  timeBodyAccelerometerJerk-MEAN()-X            : num 
+  timeBodyAccelerometerJerk-MEAN()-Y            : num 
+  timeBodyAccelerometerJerk-MEAN()-Z            : num  
+  timeBodyAccelerometerJerk-SD()-X              : num  
+  timeBodyAccelerometerJerk-SD()-Y              : num 
+  timeBodyAccelerometerJerk-SD()-Z              : num 
+  timeBodyGyroscope-MEAN()-X                    : num  
+  timeBodyGyroscope-MEAN()-Y                    : num 
+  timeBodyGyroscope-MEAN()-Z                    : num 
+  timeBodyGyroscope-SD()-X                      : num  
+  timeBodyGyroscope-SD()-Y                      : num 
+  timeBodyGyroscope-SD()-Z                      : num 
+  timeBodyGyroscopeJerk-MEAN()-X                : num  
+  timeBodyGyroscopeJerk-MEAN()-Y                : num  
+  timeBodyGyroscopeJerk-MEAN()-Z                : num  
+  timeBodyGyroscopeJerk-SD()-X                  : num 
+  timeBodyGyroscopeJerk-SD()-Y                  : num 
+  timeBodyGyroscopeJerk-SD()-Z                  : num 
+  timeBodyAccelerometerMagnitude-MEAN()         : num  
+  timeBodyAccelerometerMagnitude-SD()           : num 
+  timeGravityAccelerometerMagnitude-MEAN()      : num 
+  timeGravityAccelerometerMagnitude-SD()        : num 
+  timeBodyAccelerometerJerkMagnitude-MEAN()     : num  
+  timeBodyAccelerometerJerkMagnitude-SD()       : num 
+  timeBodyGyroscopeMagnitude-MEAN()             : num  
+  timeBodyGyroscopeMagnitude-SD()               : num 
+  timeBodyGyroscopeJerkMagnitude-MEAN()         : num 
+  timeBodyGyroscopeJerkMagnitude-SD()           : num  
+  frequencyBodyAccelerometer-MEAN()-X           : num  
+  frequencyBodyAccelerometer-MEAN()-Y           : num  
+  frequencyBodyAccelerometer-MEAN()-Z           : num  
+  frequencyBodyAccelerometer-SD()-X             : num  
+  frequencyBodyAccelerometer-SD()-Y             : num 
+  frequencyBodyAccelerometer-SD()-Z             : num
+  frequencyBodyAccelerometerJerk-MEAN()-X       : num  
+  frequencyBodyAccelerometerJerk-MEAN()-Y       : num 
+  frequencyBodyAccelerometerJerk-MEAN()-Z       : num 
+  frequencyBodyAccelerometerJerk-SD()-X         : num  
+  frequencyBodyAccelerometerJerk-SD()-Y         : num  
+  frequencyBodyAccelerometerJerk-SD()-Z         : num 
+  frequencyBodyGyroscope-MEAN()-X               : num 
+  frequencyBodyGyroscope-MEAN()-Y               : num
+  frequencyBodyGyroscope-MEAN()-Z               : num  
+  frequencyBodyGyroscope-SD()-X                 : num 
+  frequencyBodyGyroscope-SD()-Y                 : num  
+  frequencyBodyGyroscope-SD()-Z                 : num          
+  frequencyBodyAccelerometerMagnitude-MEAN()    : num  
+  frequencyBodyAccelerometerMagnitude-SD()      : num  
+  frequencyBodyAccelerometerJerkMagnitude-MEAN(): num  
+  frequencyBodyAccelerometerJerkMagnitude-SD()  : num 
+  frequencyBodyGyroscopeMagnitude-MEAN()        : num 
+  frequencyBodyGyroscopeMagnitude-SD()          : num    
+  frequencyBodyGyroscopeJerkMagnitude-MEAN()    : num  
+  frequencyBodyGyroscopeJerkMagnitude-SD()      : num  
 
  
-
-
