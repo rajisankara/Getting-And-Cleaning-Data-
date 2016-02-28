@@ -43,16 +43,16 @@ The following files are available for the train and test data. Their description
 - 'train/Inertial Signals/body_gyro_x_train.txt': The angular velocity vector measured by the gyroscope for each window sample. The units are radians/second. 
 
 ### Steps followed to create the tidy data set
-1.Data from test, train and subject are read and merged into one single dataset called mergedData  
+1.Data from test, train and subject were read and merged into one single dataset called mergedData  
 
-2.Meaningful activity name is given by merging the data read from activity labels. Extracted only the measurements on the mean and standard deviation for each measurement     
+2.Meaningful activity names were given by merging the data read from activity labels. Extracted only the measurements on the mean and standard deviation for each measurement     
 
 3.Averages were computed by subjectid and activityname and sortes by subjectid and activityname using plyr package.  
-Resulting data is stored in the variable aggregated_data
+Resulting data was stored in the variable aggregated_data
 
-4.ColumnNames in the aggregated dataset is cleaned up by giving meaningful names  
+4.ColumnNames in the aggregated dataset were cleaned up by giving meaningful names  
 
-5.The cleaned up data is written into file tidydata.txt 
+5.The cleaned up data was written into file tidydata.txt 
 
 6.tidydata has 180 Obs and 68 Variables
 
