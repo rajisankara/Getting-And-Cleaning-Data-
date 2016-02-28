@@ -16,7 +16,7 @@ For each record the following info are recorded:
 
 The dataset includes the following files:  
 
-- 'README.txt'  
+- 'README.txt'    
 
 - 'features_info.txt': Shows information about the variables used on the feature vector.  
 
